@@ -13,8 +13,8 @@
         href="https://fonts.googleapis.com/css2?family=Inter&family=Playfair+Display:ital,wght@400, 700;1,700&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="{% static 'css/main/reset.css' %}">
-    <link rel="stylesheet" href="{% static 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css' %}" />
-    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="{% static 'css/main/style.css' %}">
 </head>
 
 <body>
@@ -44,7 +44,7 @@
                     </li>
                     <li class="user-nav__item">
                         <a href="#" class="user-nav__link">
-                            <img src="images/cart.svg" alt="">
+                            <img src="{% static 'images/cart.svg' %}" alt="">
                         </a>
                     </li>
                 </ul>
@@ -62,7 +62,7 @@
                     <div class="top-slide">
                         <div class="container">
                             <div class="top-slide__inner">
-                                <img src="images/slider-top/gris_dior.jpg" alt="">
+                                <img src="{% static 'images/slider-top/gris_dior.jpg' %}" alt="">
                                 <div class="top-slide__content">
                                     <h1 class="top-slide__title">
                                         GRIS DIOR
@@ -76,13 +76,13 @@
                                     </p>
                                     <a href="#" class="top-slide__btn button">DISCOVER</a>
                                 </div>
-                                <img src="images/slider-top/ortega.jpg" alt="">
+                                <img src="{% static 'images/slider-top/ortega.jpg' %}" alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="top-slide" style="background-image: url(images/slider-top/slider2.jpg);">
+                    <div class="top-slide" style="background-image: url({% static 'images/slider-top/slider2.jpg' %});">
                         <div class="container">
                             <div class="top-slide__inner">
                                 <a href="#" class="top-slide__btn button">YOUR NEW EXPERIENCE</a>
@@ -91,7 +91,7 @@
                     </div>
                 </div>
                 <div class="swiper-slide">
-                    <div class="top-slide" style="background-image: url(images/slider-top/slider3.jpg);">
+                    <div class="top-slide" style="background-image: url({% static 'images/slider-top/slider3.jpg' %});">
                         <div class="container">
                             <div class="top-slide__inner">
                                 <a href="#" class="top-slide__btn button">YOUR NEW EXPERIENCE</a>
@@ -104,10 +104,10 @@
 
             <div class="container-arrow">
                 <div class="swiper-button-prev">
-                    <img src="images/Arrow-left.svg" alt="">
+                    <img src="{% static 'images/Arrow-left.svg' %}" alt="">
                 </div>
                 <div class="swiper-button-next">
-                    <img src="images/Arrow-right.svg" alt="">
+                    <img src="{% static 'images/Arrow-right.svg' %}" alt="">
                 </div>
             </div>
         </div>
@@ -145,7 +145,7 @@
                                 <h4 class="about__item-title">
                                     DISCOVER GRIS DIOR
                                 </h4>
-                                <img src="images/about-slider/1.jpg" alt="">
+                                <img src="{% static 'images/about-slider/1.jpg' %}" alt="">
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -153,7 +153,7 @@
                                 <h4 class="about__item-title">
                                     DARE TO RISK IT
                                 </h4>
-                                <img src="images/about-slider/2.jpg" alt="">
+                                <img src="{% static 'images/about-slider/2.jpg' %}" alt="">
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -161,7 +161,7 @@
                                 <h4 class="about__item-title">
                                     FEEL THE FLAVOUR
                                 </h4>
-                                <img src="images/about-slider/3.jpg" alt="">
+                                <img src="{% static 'images/about-slider/3.jpg' %}" alt="">
                             </div>
                         </div>
 
@@ -170,7 +170,7 @@
                                 <h4 class="about__item-title">
                                     DISCOVER GRIS DIOR
                                 </h4>
-                                <img src="images/about-slider/1.jpg" alt="">
+                                <img src="{% static 'images/about-slider/1.jpg' %}" alt="">
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -178,7 +178,7 @@
                                 <h4 class="about__item-title">
                                     DARE TO RISK IT
                                 </h4>
-                                <img src="images/about-slider/2.jpg" alt="">
+                                <img src="{% static 'images/about-slider/2.jpg' %}" alt="">
                             </div>
                         </div>
                         <div class="swiper-slide">
@@ -186,16 +186,16 @@
                                 <h4 class="about__item-title">
                                     FEEL THE FLAVOUR
                                 </h4>
-                                <img src="images/about-slider/3.jpg" alt="">
+                                <img src="{% static 'images/about-slider/3.jpg' %}" alt="">
                             </div>
                         </div>
                     </div>
                     <div class="container-arrow" about__arrow>
                         <div class="swiper-button-prev">
-                            <img src="images/Arrow-left.svg" alt="">
+                            <img src="{% static 'images/Arrow-left.svg' %}" alt="">
                         </div>
                         <div class="swiper-button-next">
-                            <img src="images/Arrow-right.svg" alt="">
+                            <img src="{% static 'images/Arrow-right.svg' %}" alt="">
                         </div>
                     </div>
 
@@ -292,7 +292,7 @@
                         <p class="products__item-step">
                             01 INITIATE THE OLFACTORY RITUAL
                         </p>
-                        <img src="images/products/1.jpg" class="products__item-img">
+                        <img src="{% static 'images/products/1.jpg' %}" class="products__item-img">
                         <p class="products__item-name">
                             <span>GRIS DIOR</span>
                             Hand and Body Lotion
@@ -303,7 +303,7 @@
                         <p class="products__item-step">
                             02 CONTINUE THE RITUAL
                         </p>
-                        <img src="images/products/2.jpg" class="products__item-img">
+                        <img src="{% static 'images/products/2.jpg' %}" class="products__item-img">
                         <p class="products__item-name">
                             <span>GRIS DIOR</span>
                             Unisex Eau de Parfum 
@@ -314,7 +314,7 @@
                         <p class="products__item-step">
                             03 ADD THE FINISHING TOUCH
                         </p>
-                        <img src="images/products/3.jpg" class="products__item-img">
+                        <img src="{% static 'images/products/3.jpg' %}" class="products__item-img">
                         <p class="products__item-name">
                             <span>GRIS DIOR</span>
                             Hair Perfume
@@ -329,7 +329,7 @@
         <div class="container">
             <div class="video__box">
                 <button class="video__btn">
-                    <img src="images/videobtn.svg" alt="">
+                    <img src="{% static 'images/videobtn.svg' %}" alt="">
                 </button>
             </div>
         </div>
@@ -339,16 +339,16 @@
         <div class="container">
             <div class="footer__top">
                 <a href="#" class="footer__logo">
-                    <img src="images/logo.svg" alt="">
+                    <img src="{% static 'images/logo.svg' %}" alt="">
                 </a>
-                <img src="images/footer-logo.jpg" alt="" class="footer__img">
+                <img src="{% static 'images/footer-logo.jpg' %}" alt="" class="footer__img">
                 <div class="footer__items">
                     <div class="footer__item">
                         <h5 class="footer__item-title">SIGN UP FOR EXCLUSIVITY</h5>
                         <form action="#" class="footer__item-form">
                             <input type="email" placeholder="E-mail" class="footer__item-input">
                             <button type="submit" class="footer__item-btn">
-                                <img src="images/Arrow-right.svg" alt="">
+                                <img src="{% static 'images/Arrow-right.svg' %}" alt="">
                             </button>
                         </form>
                     </div>
@@ -412,7 +412,7 @@
     </footer>
 
 
-    <script src="{% static 'https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js' %}"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="{% static 'js/main/main.js' %}"></script>
 </body>
 
